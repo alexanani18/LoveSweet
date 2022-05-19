@@ -1,8 +1,12 @@
+*{
+  background-color: #faf0e6 !important;
+}
+
 /*Carusel Slider*/
 
 /* Clasa carusel */
 .carousel {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 /* Declararea inaltimii elementului imagine*/
@@ -37,4 +41,22 @@
 .photoCake{
   height: 25rem;
   width: 100%;
+}
+
+/*Animatie pentru textWrite*/
+
+.textWrite {
+  overflow: hidden; /* Textul ascuns in animatie */
+  border-right: .15em solid transparent; /* Cursorul de la animatie white (ascuns) */
+  white-space: nowrap; /* Pentru o singura linie */
+  margin: 0 auto; /* Efect scrolling */
+  animation: /*Animatie*/
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end;
+}
+
+/* Efectul de typing */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
