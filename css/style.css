@@ -1,7 +1,9 @@
 *{
   background-color: #faf0e6 !important;
 }
-
+.navbar-collapse{
+  flex-grow: 0;
+}
 /*Animatie pentru textWrite*/
 .textWrite {
   overflow: hidden; /* Textul ascuns in animatie */

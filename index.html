@@ -24,40 +24,42 @@
 </head>
 <body>
 
-  <!-- Navbar start -->
-  <nav class="navbar navbar-expand-md navbar-light" aria-label="Sixth navbar">
-    <p class="logo-section text-center">Love Sweet</p>
-    <div class="container-fluid justify-content-end">
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-end mr-1" id="navbarsExample06">
-        <ul class="navbar-nav mb-2 mb-xl-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Acasa</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-dark" href="inConstructie.html" id="dropdown06" data-bs-toggle="dropdown" aria-expanded="true">Produse</a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown06">
-              <li><a class="dropdown-item" href="inConstructie.html">Torturi</a></li>
-              <li><a class="dropdown-item" href="inConstructie.html">Prajituri</a></li>
-              <li><a class="dropdown-item" href="inConstructie.html">Patiserie si Panificatie</a></li>
-              <li><a class="dropdown-item" href="inConstructie.html">Pachete</a></li>
-            </ul>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="despreNoi.html">Despre noi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="contact.html">Contacte</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="test.html">Test</a>
-              </li>
-            </ul>
-      </div>
+<!-- Navbar start -->
+<nav class="navbar navbar-expand-md navbar-light" aria-label="Sixth navbar example">
+  <div class="container-fluid">
+    <a class="navbar-brand logo-section" href="index.html">Love Sweet</a>
+    <button class="navbar-toggler collapsed justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse collapse justify-content-end" id="navbarsExample06">
+      <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Acasa</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="produse.html" id="dropdown06" data-bs-toggle="dropdown" aria-expanded="false">Produse</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown06">
+            <li><a class="dropdown-item" href="produse.html#pills-torturi-tab">Torturi</a></li>
+            <li><a class="dropdown-item" href="produse.html#pills-prajituri-tab">Prajituri</a></li>
+            <li><a class="dropdown-item" href="produse.html#pills-psp-tab">Patiserie si Panificatie</a></li>
+            <li><a class="dropdown-item" href="produse.html#pills-pachete-tab">Pachete</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="despreNoi.html">Despre noi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Contact.html">Contacte</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="test.html">Test</a>
+        </li>
+      </ul>
     </div>
-  </nav>
-  <!-- Navbar end -->
+  </div>
+</nav>
+<!-- Navbar end -->
 
   <!-- Carusel start-->
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -105,7 +107,7 @@
             </div>
             <p class="h5">Torturi</p> 
             <p class="text-muted">Suntem alături de tine pentru orice eveniment important din viața ta!</p>
-            <a href="inConstructie.html" class="btn btn-outline-info">Vezi mai multe</a>
+            <a href="produse.html#pills-torturi-tab" class="btn btn-outline-info">Vezi mai multe</a>
           </div>
         </div>
 
@@ -117,7 +119,7 @@
             </div>
             <p class="h5">Prajituri</p>
             <p class="text-muted">Alege prajitura ta preferata din gama noastra de prajituri.</p>
-            <a href="inConstructie.html" class="btn btn-outline-info">Vezi mai multe</a>
+            <a href="produse.html#pills-prajituri-tab" class="btn btn-outline-info">Vezi mai multe</a>
           </div>
         </div>
 
@@ -129,7 +131,7 @@
             </div>
             <p class="h5">Panificatie si Patiserie</p>
             <p class="text-muted">Sa ne amintim de gustul copilariei. Cozonaci si saratele ca la bunica acasa.</p>
-            <a href="inConstructie.html" class="btn btn-outline-info">Vezi mai multe</a>
+            <a href="test.html#pills-psp-tab" class="btn btn-outline-info">Vezi mai multe</a>
           </div>
         </div>
 
@@ -141,7 +143,7 @@
             </div>
             <p class="h5">Pachete</p>
             <p class="text-muted">Poti sa alegi unul din pachete pentru o varietate de gustari.</p>
-            <a href="inConstructie.html" class="btn btn-outline-info">Vezi mai multe</a>
+            <a href="test.html#pills-pachete-tab" class="btn btn-outline-info">Vezi mai multe</a>
           </div>
         </div>
       </div>
@@ -219,14 +221,14 @@
   <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
       <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Acasa</a></li>
-      <li class="nav-item"><a href="inConstructie.html" class="nav-link px-2 text-muted">Produse</a></li>
+      <li class="nav-item"><a href="produse.html" class="nav-link px-2 text-muted">Produse</a></li>
       <li class="nav-item"><a href="TermeniSiConditii.html" class="nav-link px-2 text-muted">Termeni si Conditii</a></li>
+      <li class="nav-item"><a href="PoliticaDeConfidentialitate.html" class="nav-link px-2 text-muted">Politica de confidentialitate</a></li>
       <li class="nav-item"><a href="despreNoi.html#iF" class="nav-link px-2 text-muted">Intrebari frecvente</a></li>
       <li class="nav-item"><a href="despreNoi.html" class="nav-link px-2 text-muted">Despre Noi</a></li>
-      <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact</a></li>
+      <li class="nav-item"><a href="Contact.html" class="nav-link px-2 text-muted">Contact</a></li>
     </ul>
     <p class="text-center text-muted">©2022 Love Sweet</p>
-    <p class="text-center text-dark"><a href="Versiune.html">© V 0.7</a></p>
   </footer>
   <!-- Footer end-->
 
