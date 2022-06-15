@@ -1,180 +1,165 @@
 <!DOCTYPE html>
 <html lang="ro-RO">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact</title>
-  <!--Bootstrap-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <!--Kit FontAs-->
-  <script src="https://kit.fontawesome.com/4006edfb61.js" crossorigin="anonymous"></script>
-  <!--Fisier propriu CSS-->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/font.css">
-  <link rel="stylesheet" href="css/carusel.css">
-  <link rel="stylesheet" href="css/intrebari_frecvente.css">
-  <link rel="stylesheet" href="css/contact.css">
-  <!--JQuerry-->
-  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-  <!--Fisier propriu JS animatii-->
-  <script src="js/anim.js"></script>
-  <script src="js/contact.js"></script>
-  <!--Font Google-->
-  <link rel="preconnect" href="https://fonts.googleapis.com"> 
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
-</head>
-<body>
-
-<!-- Navbar start -->
-<nav class="navbar navbar-expand-md navbar-light" aria-label="Sixth navbar example">
-  <div class="container-fluid">
-    <a class="navbar-brand logo-section" href="index.html">Love Sweet</a>
-    <button class="navbar-toggler collapsed justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="navbar-collapse collapse justify-content-end" id="navbarsExample06">
-      <ul class="navbar-nav me-auto mb-2 mb-xl-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Acasa</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-dark" href="produse.html" id="dropdown06" data-bs-toggle="dropdown" aria-expanded="false">Produse</a>
-          <ul class="dropdown-menu" aria-labelledby="dropdown06">
-            <li><a class="dropdown-item" href="produse.html#pills-torturi-tab">Torturi</a></li>
-            <li><a class="dropdown-item" href="produse.html#pills-prajituri-tab">Prajituri</a></li>
-            <li><a class="dropdown-item" href="produse.html#pills-psp-tab">Patiserie si Panificatie</a></li>
-            <li><a class="dropdown-item" href="produse.html#pills-pachete-tab">Pachete</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="despreNoi.html">Despre noi</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="Contact.html">Contacte</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="test.html">Test</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!-- Navbar end -->
-
-  <!--Formular contact start-->
-  <div class="container">
-    <span class="big-circle"></span>
-    <div class="form">
-      <div class="contact-info">
-        <p class="title h3 text-center">CONTACTEAZA-NE</p>
-        <p class="text text-center">
-          Scrie-ne un mesaj si in cel mai scurt timp vei fi contactat de catre unul din operatorii nostri.
-        </p>
-  
-        <!--Informatii adresa (parte stanga)-->
-        <div class="info">
-          <div class="information">
-            <img src="img/Contact/locatie.png" class="icon" alt="Harta" />
-            <p class="mt-3">Str. XXXXX, Nr. XXX, Arad, Arad</p>
-          </div>
-          <div class="information">
-            <img src="img/Contact/e-mail.png" class="icon" alt="Plic" />
-            <p class="mt-3">test@test.com</p>
-          </div>
-          <div class="information">
-            <img src="img/Contact/telefon.png" class="icon" alt="Telefon" />
-            <p class="mt-3">0123-456-789</p>
-          </div>
-        </div>
-  
-        <div class="social-media text-center">
-          <p>SOCIAL MEDIA:</p>
-          <div class="social-icons">
-            <a href="#">
-              <img src="img/Contact/Facebook.png" alt="Iconita Facebook">
-            </a>
-            <a href="#">
-              <img src="img/Contact/Instagram.png" alt="Iconita Instagram">
-            </a>
-          </div>
-        </div>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="Scraba Anani Alexandru">
+      <title>Contact</title>
+      <!--Bootstrap-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <!--Kit FontAs-->
+      <script src="https://kit.fontawesome.com/4006edfb61.js" crossorigin="anonymous"></script>
+      <!--Fisier propriu CSS-->
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/font.css">
+      <link rel="stylesheet" href="css/animatii.css">
+      <link rel="stylesheet" href="css/contact.css">
+      <!--Font Google-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Navbar start -->
+      <nav class="navbar navbar-expand-md navbar-light" aria-label="Sixth navbar example">
+         <div class="container-fluid">
+            <a class="navbar-brand logo-section" href="index.html">Love Sweet</a>
+            <button class="navbar-toggler collapsed justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-end" id="navbarsExample06">
+               <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="index.html">Acasă</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle text-dark" href="produs_torturi.html" id="dropdown06" data-bs-toggle="dropdown" aria-expanded="false">Produse</a>
+                     <ul class="dropdown-menu" aria-labelledby="dropdown06">
+                        <li><a class="dropdown-item" href="produs_torturi.html">Torturi</a></li>
+                        <li><a class="dropdown-item" href="produse_prajituri.html">Prăjituri</a></li>
+                        <li><a class="dropdown-item" href="produs_patiserie_si_panificatie.html">Patiserie și panificație</a></li>
+                        <li><a class="dropdown-item" href="produs_pachete">Pachete</a></li>
+                     </ul>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="despre_noi.html">Despre noi</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="contact.html">Contacte</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- Navbar end -->
+      <!--Formular contact start-->
+      <div class="container">
+         <span class="big-circle"></span>
+         <div class="form">
+            <div class="contact-info">
+               <p class="title h3 text-center fontJoan fw-bold">CONTACTEAZĂ-NE</p>
+               <p class="text text-center fontRubik">
+                  Scrie-ne un mesaj și în cel mai scurt timp vei fi contactat de către unul din operatorii noștri.
+               </p>
+               <!--Informatii adresa (parte stanga)-->
+               <div class="info">
+                  <div class="information">
+                     <img src="img/Contact/locatie.png" class="icon" alt="iconita harta" />
+                     <p class="mt-3 fontRubik">Str. XXXXX, Nr. XXX, Arad, Arad</p>
+                  </div>
+                  <div class="information">
+                     <img src="img/Contact/e-mail.png" class="icon" alt="iconita plic" />
+                     <p class="mt-3 fontRubik">test@test.com</p>
+                  </div>
+                  <div class="information">
+                     <img src="img/Contact/telefon.png" class="icon" alt="iconita telefon" />
+                     <p class="mt-3 fontRubik">0000-000-000</p>
+                  </div>
+               </div>
+               <div class="social-media text-center">
+                  <p class="fontRoboto">SOCIAL MEDIA:</p>
+                  <div class="social-icons">
+                     <a href="https://www.facebook.com/PrajituriRamo">
+                     <img src="img/Contact/Facebook.png" alt="Iconita Facebook">
+                     </a>
+                     <a href="https://www.instagram.com/lovesweetdiana/?hl=en">
+                     <img src="img/Contact/Instagram.png" alt="Iconita Instagram">
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <!--Informatii adresa (parte dreapta)-->
+            <div class="contact-form">
+               <form autocomplete="off" onsubmit="return false">
+                  <p class="h5 fontJoan fw-bold">Ai nevoie de mai multe informații</p>
+                  <div class="input-container">
+                     <input type="text" class="input" id="numeContact" onkeyup="validareNume()">
+                     <label for="numeContact" class="fontRubik">Numele tău</label>
+                     <span>Numele tău</span>
+                  </div>
+                  <p id="eroareNume" class="fontRubik"></p>
+                  <div class="input-container">
+                     <input type="email" class="input" id="emailContact" onkeyup="validareEmail()">
+                     <label for="emailContact" class="fontRubik">Adresa de email</label>
+                     <span>Adresa de email</span>
+                  </div>
+                  <p id="eroareEmail" class="fontRubik"></p>
+                  <div class="input-container">
+                     <input type="tel" class="input" id="telefonContact" onkeyup="validareTelefon()">
+                     <label for="telefonContact" class="fontRubik">Numărul de telefon</label>
+                     <span>Numărul de telefon</span>
+                  </div>
+                  <p id="eroareTelefon" class="fontRubik"></p>
+                  <div class="input-container textarea">
+                     <textarea name="message" class="input" id="mesajContact" onkeyup="validareMesaj()"></textarea>
+                     <label for="mesajContact" class="fontRubik">Mesajul tău</label>
+                     <span>Mesajul tău</span>
+                  </div>
+                  <p id="eroareMesaj" class="fontRubik"></p>
+                  <p class="textMic"><input type="radio" name="tip" value="PcD" id="PcD" class="m-2 fontRubik" required>Sunt de acord cu <a href="politica_de_confidentialitate.html">politica de confidențialitate</a> și <a href="termeni_si_conditii.html">termenii și condițiile</a> acestui site.</p>
+                  <button onclick="return validareForm()" class="fontFascinate">Trimite</button>
+                  <p id="eroareSend" class="mt-2 fontRubik"></p>
+                  <p id="succesSend" class="mt-2 fontRubik"></p>
+               </form>
+            </div>
+         </div>
       </div>
-  <!--Informatii adresa (parte dreapta)-->
-      <div class="contact-form">
-        <form autocomplete="off">
-          <p class="h5">Ai nevoie de mai multe informatii</p>
-          <div class="input-container">
-            <input type="text" class="input" id="numeContact" onkeyup="validareNume()">
-            <label for="numeContact">Numele tau</label>
-            <span>Numele tau</span>
-          </div>
-            <p id="eroareNume"></p>
-          <div class="input-container">
-            <input type="email" class="input" id="emailContact" onkeyup="validareEmail()">
-            <label for="emailContact">Adresa de email</label>
-            <span>Adresa de email</span>
-          </div>
-          <p id="eroareEmail"></p>
-          <div class="input-container">
-            <input type="tel" class="input" id="telefonContact" onkeyup="validareTelefon()">
-            <label for="telefonContact">Numarul de telefon</label>
-            <span>Numarul de telefon</span>
-          </div>
-          <p id="eroareTelefon"></p>
-          <div class="input-container textarea">
-            <textarea name="message" class="input" id="mesajContact" onkeyup="validareMesaj()"></textarea>
-            <label for="mesajContact">Mesajul tau</label>
-            <span>Mesajul tau</span>
-          </div>          
-          <p id="eroareMesaj"></p>
-          <p class="textMic"><input type="radio" name="tip" value="PcD" id="PcD" required>Sunt de acord cu <a href="PoliticaDeConfidentialitate.html">politica de confidentialitate</a> si <a href="TermeniSiConditii.html">termenii si conditiile a acestui site.</a></p>
-          <button onclick="return validareForm()">Trimite</button>
-          <p id="eroareSend"></p>
-        </form>
-      </div>
-    </div>
-  </div>
-  <!--Formular contact end-->  
-
-  <!-- Footer start -->
-  <footer class="py-3 my-4">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Acasa</a></li>
-      <li class="nav-item"><a href="produse.html" class="nav-link px-2 text-muted">Produse</a></li>
-      <li class="nav-item"><a href="TermeniSiConditii.html" class="nav-link px-2 text-muted">Termeni si Conditii</a></li>
-      <li class="nav-item"><a href="PoliticaDeConfidentialitate.html" class="nav-link px-2 text-muted">Politica de confidentialitate</a></li>
-      <li class="nav-item"><a href="despreNoi.html#iF" class="nav-link px-2 text-muted">Intrebari frecvente</a></li>
-      <li class="nav-item"><a href="despreNoi.html" class="nav-link px-2 text-muted">Despre Noi</a></li>
-      <li class="nav-item"><a href="Contact.html" class="nav-link px-2 text-muted">Contact</a></li>
-    </ul>
-    <p class="text-center text-muted">©2022 Love Sweet</p>
-  </footer>
-  <!-- Footer end-->
-
-  <!-- Javascript Boostrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-  <!--JavaScript pentru formularul de contact-->
-  <script>
-    const inputs = document.querySelectorAll(".input");
-    function focusFunc() {
-      let parent = this.parentNode;
-      parent.classList.add("focus");
-    }
-    function blurFunc() {
-      let parent = this.parentNode;
-      if (this.value == "") {
-        parent.classList.remove("focus");
-      }
-    }
-    inputs.forEach((input) => {
-      input.addEventListener("focus", focusFunc);
-      input.addEventListener("blur", blurFunc);
-    });
-  </script>
-  <script src="js/contact.js"></script>
-</body>
+      <!--Formular contact end-->  
+      <!-- Footer start -->
+      <footer class="py-3 my-4">
+         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Acasă</a></li>
+            <li class="nav-item"><a href="produse.html" class="nav-link px-2 text-muted">Produse</a></li>
+            <li class="nav-item"><a href="termeni_si_conditii.html" class="nav-link px-2 text-muted">Termeni și conditii</a></li>
+            <li class="nav-item"><a href="politica_de_confidentialitate.html" class="nav-link px-2 text-muted">Politica de confidențialitate</a></li>
+            <li class="nav-item"><a href="despreNoi.html#iF" class="nav-link px-2 text-muted">Întrebări frecvente</a></li>
+            <li class="nav-item"><a href="despreNoi.html" class="nav-link px-2 text-muted">Despre Noi</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact</a></li>
+         </ul>
+         <p class="text-center text-muted">©2022 Love Sweet</p>
+      </footer>
+      <!-- Footer end-->
+      <!-- Javascript Boostrap -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <!--JavaScript pentru formularul de contact-->
+      <script>
+         const inputs = document.querySelectorAll(".input");
+         function focusFunc() {
+           let parent = this.parentNode;
+           parent.classList.add("focus");
+         }
+         function blurFunc() {
+           let parent = this.parentNode;
+           if (this.value == "") {
+             parent.classList.remove("focus");
+           }
+         }
+         inputs.forEach((input) => {
+           input.addEventListener("focus", focusFunc);
+           input.addEventListener("blur", blurFunc);
+         });
+      </script>
+      <script src="js/contact.js"></script>
+   </body>
 </html>

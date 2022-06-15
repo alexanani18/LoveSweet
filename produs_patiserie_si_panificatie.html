@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Scraba Anani Alexandru">
+    <title>Produse LoveSweet</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Fisier propriu CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/animatii.css">
+    <link rel="stylesheet" href="css/produse.css">
+    <!--JQuerry-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!--Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+    <script>src="https://kit.fontawesome.com/64d58efce2.js"; crossorigin="anonymous"</script>
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-md navbar-light" aria-label="Sixth navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand logo-section" href="index.html">Love Sweet</a>
+          <button class="navbar-toggler collapsed justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse justify-content-end" id="navbarsExample06">
+              <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Acasă</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" href="produs_torturi.html" id="dropdown06" data-bs-toggle="dropdown" aria-expanded="false">Produse</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown06">
+                      <li><a class="dropdown-item" href="produs_torturi.html">Torturi</a></li>
+                      <li><a class="dropdown-item" href="produse_prajituri.html">Prăjituri</a></li>
+                      <li><a class="dropdown-item" href="produs_patiserie_si_panificatie.html">Patiserie și panificație</a></li>
+                      <li><a class="dropdown-item" href="produs_pachete.html">Pachete</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="despre_noi.html">Despre noi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contact.html">Contacte</a>
+                </li>
+              </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+    <!--Produse start-->
+    <div class="tabs-to-dropdown">
+      <div class="nav-wrapper d-flex align-items-center justify-content-center">
+        <ul class="nav nav-pills d-none d-md-flex fs-5 prodList" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link text-dark fontRoboto" data-toggle="pill" href="#torturi" role="tab" aria-controls="torturi" aria-selected="false">Torturi</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link text-dark fontRoboto" data-toggle="pill" href="#prajituri" role="tab" aria-controls="prajituri" aria-selected="false">Prajituri</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link text-dark fontRoboto" data-toggle="pill" href="#patiserie-si-panificație" role="tab" aria-controls="patiserie-si-panificație" aria-selected="true">Patiserie si Panificatie</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link text-dark fontRoboto" data-toggle="pill" href="#pachete" role="tab" aria-controls="pachete" aria-selected="false">Pachete</a>
+            </li>
+        </ul>
+      </div>
+      <!--Torturi-->
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade" id="torturi" role="tabpanel" aria-labelledby="torturi">
+            <div class="container-fluid">
+              <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card" style="width: 18rem;">
+                          <img src="img/produse/torturi/torturi_de_lux.jpg" class="card-img-top" alt="tort">
+                          <div class="card-body">
+                              <p class="card-title h5 text-center">Torturi de lux</p>
+                              <a href="detalii_torturi.html" class="btn ml-5">Mai multe detalii</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card" style="width: 18rem;">
+                          <img src="img/produse/torturi/torturi_pentru_pasiuni.jpg" class="card-img-top" alt="tort">
+                          <div class="card-body">
+                              <p class="card-title h5 text-center">Torturi personalizate</p>
+                              <a href="detalii_torturi.html" class="btn ml-5">Mai multe detalii</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card" style="width: 18rem;">
+                          <img src="img/produse/torturi/torturi_cu_flori.jpg" class="card-img-top" alt="tort">
+                          <div class="card-body">
+                              <p class="card-title h5 text-center">Torturi cu flori</p>
+                              <a href="detalii_torturi.html" class="btn ml-5">Mai multe detalii</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card" style="width: 18rem;">
+                          <img src="img/produse/torturi/torturi_pentru_copii.jpg" class="card-img-top" alt="tort">
+                          <div class="card-body">
+                              <p class="card-title h5 text-center">Torturi pentru copii</p>
+                              <a href="detalii_torturi.html" class="btn ml-5">Mai multe detalii</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card" style="width: 18rem;">
+                          <img src="img/produse/torturi/torturi_din_dulciuri.jpg" class="card-img-top" alt="tort">
+                          <div class="card-body">
+                              <p class="card-title h5 text-center">Torturi din dulciuri</p>
+                              <a href="detalii_torturi.html" class="btn ml-5">Mai multe detalii</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card" style="width: 18rem;">
+                          <img src="img/produse/torturi/torturi_cu_poze.jpg" class="card-img-top" alt="tort">
+                          <div class="card-body">
+                              <p class="card-title h5 text-center">Torturi cu poze</p>
+                              <a href="detalii_torturi.html" class="btn ml-5">Mai multe detalii</a>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <!--Prajituri-->
+        <div class="tab-pane fade" id="prajituri" role="tabpanel" aria-labelledby="prajituri">
+            <div class="container-fluid">
+              <div class="container-fluid">
+                  <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="card" style="width: 18rem;">
+                              <img src="img/produse/prajituri/prajitura_bucuresti.jpg" class="card-img-top" alt="prajitura bucuresti">
+                              <div class="card-body">
+                                <p class="card-title h5 text-center">București</p>
+                                <a href="detalii_prajituri.html" class="btn ml-5">Mai multe detalii</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="card" style="width: 18rem;">
+                              <img src="img/produse/prajituri/prajituri_miniEclere.jpg" class="card-img-top" alt="Mini Eclere">
+                              <div class="card-body">
+                                <p class="card-title h5 text-center">Mini Eclere</p>
+                                <a href="detalii_prajituri.html" class="btn ml-5">Mai multe detalii</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="card" style="width: 18rem;">
+                              <img src="img/produse/prajituri/prajituri_miniTarte.jpg" class="card-img-top" alt="Tarte">
+                              <div class="card-body">
+                                <p class="card-title h5 text-center">Tarte</p>
+                                <a href="detalii_prajituri.html" class="btn ml-5">Mai multe detalii</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="card" style="width: 18rem;">
+                              <img src="img/produse/prajituri/prajituri_piersici.jpg" class="card-img-top" alt="Piersici">
+                              <div class="card-body">
+                                <p class="card-title h5 text-center">Piersici</p>
+                                <a href="detalii_prajituri.html" class="btn ml-5">Mai multe detalii</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="card" style="width: 18rem;">
+                              <img src="img/produse/prajituri/prajituri_savarine.jpg" class="card-img-top" alt="Savarine">
+                              <div class="card-body">
+                                <p class="card-title h5 text-center">Savarine</p>
+                                <a href="detalii_prajituri.html" class="btn ml-5">Mai multe detalii</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="card" style="width: 18rem;">
+                              <img src="img/produse/prajituri/prajituri_tiramisu.jpg" class="card-img-top" alt="Tiramisu">
+                              <div class="card-body">
+                                <p class="card-title h5 text-center">Tiramisu</p>
+                                <a href="detalii_prajituri.html" class="btn ml-5">Mai multe detalii</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="card" style="width: 18rem;">
+                              <img src="img/produse/prajituri/prajitura_boema.jpg" class="card-img-top" alt="Boema">
+                              <div class="card-body">
+                                <p class="card-title h5 text-center">Boema</p>
+                                <a href="detalii_prajituri.html" class="btn ml-5">Mai multe detalii</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="card" style="width: 18rem;">
+                              <img src="img/produse/prajituri/prajituri_dulcinea.jpg" class="card-img-top" alt="Dulcinea">
+                              <div class="card-body">
+                                <p class="card-title h5 text-center">Dulcinea</p>
+                                <a href="detalii_prajituri.html" class="btn ml-5">Mai multe detalii</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="card" style="width: 18rem;">
+                              <img src="img/produse/prajituri/prajitura_dobos.jpg" class="card-img-top" alt="Doboș">
+                              <div class="card-body">
+                                <p class="card-title h5 text-center">Doboș</p>
+                                <a href="detalii_prajituri.html" class="btn ml-5">Mai multe detalii</a>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <!--Patiserie si panificatie-->
+        <div class="tab-pane fade show active" id="patiserie-si-panificație" role="tabpanel" aria-labelledby="patiserie-si-panificație">
+            <div class="container-fluid">
+              <div class="container-fluid">
+                  <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="card" style="width: 18rem;">
+                              <img src="img/produse/PSP/psp_cozonaci.jpg" class="card-img-top" alt="Cozonac">
+                              <div class="card-body">
+                                <p class="card-title h5 text-center">Cozonac</p>
+                                <a href="detalii_patiserie_si_panificatie.html" class="btn ml-5">Mai multe detalii</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="card" style="width: 18rem;">
+                            <img src="img/produse/PSP/psp_saratele.jpg" class="card-img-top" alt="saratele">
+                              <div class="card-body">
+                                <p class="card-title h5 text-center">Sărățele</p>
+                                <a href="detalii_patiserie_si_panificatie.html" class="btn ml-5">Mai multe detalii</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="card" style="width: 18rem;">
+                              <img src="img/produse/PSP/psp_pachet.png" class="card-img-top" alt="pachet sratele si cozonac">
+                              <div class="card-body">
+                                <p class="card-title h5 text-center">Pachet sărățele și cozonac</p>
+                                <a href="detalii_patiserie_si_panificatie.html" class="btn ml-5">Mai multe detalii</a>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <!--Pachete-->
+        <div class="tab-pane fade" id="pachete" role="tabpanel" aria-labelledby="pachete">
+            <div class="container-fluid">
+              <div class="container-fluid">
+                  <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="card" style="width: 18rem;">
+                              <img src="img/produse/pachete/pachet1.jpg" class="card-img-top" alt="pachet mic de prajituri">
+                              <div class="card-body">
+                                <p class="card-title h5 text-center">Pachet mic</p>
+                                <a href="detalii_pachete.html" class="btn ml-5">Mai multe detalii</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="card" style="width: 18rem;">
+                              <img src="img/produse/pachete/pachet2.jpg" class="card-img-top" alt="pachet mediu de prajituri">
+                              <div class="card-body">
+                                <p class="card-title h5 text-center">Pachet mediu</p>
+                                <a href="detalii_pachete.html" class="btn ml-5">Mai multe detalii</a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="card" style="width: 18rem;">
+                              <img src="img/produse/pachete/pachet3.jpg" class="card-img-top" alt="pachet mare de prajituri">
+                              <div class="card-body">
+                                <p class="card-title h5 text-center">Pachet mare</p>
+                                <a href="detalii_pachete.html" class="btn ml-5">Mai multe detalii</a>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+  </div>
+  <!--Produse end-->  
+    <!-- Footer start -->
+    <footer class="pt-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Acasă</a></li>
+          <li class="nav-item"><a href="produs_torturi.html" class="nav-link px-2 text-muted">Produse</a></li>
+          <li class="nav-item"><a href="termeni_si_conditii.html" class="nav-link px-2 text-muted">Termeni și condiții</a></li>
+          <li class="nav-item"><a href="politica_de_confidentialitate.html" class="nav-link px-2 text-muted">Politica de confidențialitate</a></li>
+          <li class="nav-item"><a href="despre_noi.html#iF" class="nav-link px-2 text-muted">Întrebări frecvente</a></li>
+          <li class="nav-item"><a href="despre_noi.html" class="nav-link px-2 text-muted">Despre Noi</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact</a></li>
+        </ul>
+        <p class="text-center text-muted">©2022 Love Sweet</p>
+    </footer>
+    <!-- Footer end-->
+    <!-- Javascript Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

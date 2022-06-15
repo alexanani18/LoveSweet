@@ -1,16 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body,
-input,
-textarea {
-  font-family: "Poppins", sans-serif;
-}
 
 .textMic{
   font-size: small;
@@ -45,7 +34,7 @@ textarea {
 
 .circle {
   border-radius: 50%;
-  background: linear-gradient(135deg, transparent 20%, #149279);
+  background: linear-gradient(135deg, transparent 20%, #010fff);
   position: absolute;
 }
 
@@ -68,7 +57,7 @@ textarea {
   position: absolute;
   width: 26px;
   height: 26px;
-  background-color: #1abc9c;
+  background-color: #7b82ff;
   transform: rotate(45deg);
   top: 50px;
   left: -13px;
@@ -140,7 +129,7 @@ textarea.input {
   background-color: #000;
   border: 2px solid #000;
   font-size: 0.95rem;
-  color: #1abc9c;
+  color: #010fff;
   line-height: 1;
   border-radius: 25px;
   outline: none;
@@ -274,7 +263,7 @@ textarea.input {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background: linear-gradient(to bottom, #1cd4af, #159b80);
+  background: linear-gradient(to bottom, #868DFF, #010fff);
   bottom: 50%;
   right: 50%;
   transform: translate(-40%, 38%);
@@ -285,7 +274,7 @@ textarea.input {
   position: absolute;
   width: 360px;
   height: 360px;
-  background-color: #fafafa;
+  background-color: #faf0e6;
   border-radius: 50%;
   top: calc(50% - 180px);
   left: calc(50% - 180px);
@@ -316,6 +305,7 @@ textarea.input {
     top: -13px;
     left: initial;
     right: 70px;
+    background-color: transparent;
   }
 
   .square {
@@ -389,4 +379,34 @@ textarea.input {
 #eroareNume, #eroareEmail, #eroareTelefon, #eroareMesaj, #eroareSend{
   font-size: 13px;
   color: red;
+}
+
+#succesSend{
+  font-size: 15px;
+  color: green;
+}
+
+
+button {
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	background: white;
+	border: 2px solid black;
+	box-shadow: 5px 5px 0 black,
+		-5px -5px 0 black,
+		-5px 5px 0 black,
+		5px -5px 0 black;
+	transition: 500ms ease-in-out;
+}
+
+button:hover {
+	box-shadow: 20px 5px 0 transparent, -20px -5px 0 transparent;
+}
+
+button:focus {
+	outline: none;
 }

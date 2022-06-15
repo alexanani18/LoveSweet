@@ -1,19 +1,24 @@
-/*Font Grape Nuts titluri*/
-.fontGrapeNuts{
-    font-family: 'Grape Nuts', cursive;
+/*Font Joan titluri*/
+.fontJoan{
+    font-family: 'Joan', serif;
   }
 
-/*Font Pacifico subtitluri*/
-.fontPacifico{
-  font-family: 'Pacifico', cursive;
+/*Font Roboto Mono subtitluri*/
+.fontRoboto{
+  font-family: 'Roboto Mono', monospace;
 }
 
-/*Font Montserrat text de modificat*/
-.fontMontserrat{
-    font-family: 'Dancing Script', cursive;
+/*Font Comfortaa  intrebari frecvente*/
+.fontComfortaa{
+  font-family: 'Comfortaa', serif;
 }
 
-/*Font Oswald text2*/
-.fontOswald{
-font-family: 'Oswald', sans-serif;
+/*Font Rubik text*/
+.fontRubik{
+  font-family: 'Rubik', sans-serif;
+}
+
+/*Font Fascinate Inline butoane*/
+.fontFascinate{
+  font-family: 'Fascinate Inline', cursive;
 }
